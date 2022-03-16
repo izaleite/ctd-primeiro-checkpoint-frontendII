@@ -18,20 +18,23 @@ ul {
 body {
   scroll-behavior: smooth;
   background-color: #0c0c0c;
-}
-
-main {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
 
+
+main {
+  min-height: 100vh;
+  display: flex;
+}
+
 /* Formulario */
 form {
   margin: 50px;
   border-radius: 30px;
+  padding: 20px;
 }
 
 
@@ -42,6 +45,7 @@ form {
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin: 30px;
 }
 
 .formEnviaInfo input {
@@ -102,7 +106,7 @@ form {
 .cartao-pokemon .detalhes {
   color: #f8eaea;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between ;
   align-items: center;
 }
 
@@ -122,7 +126,6 @@ form {
 /* HP | Ataque | Defesa | Velocidade  */
 .cartao-pokemon .cartao-informacoes {
   display: flex;
-  justify-content: space-between;
   background-color: #FFFFFF;
   padding: 80px 30px 50px;
   margin-top: -70px;
