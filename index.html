@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex - Front End II</title>
+  <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/global.css">
+</head>
+
+<body>
+  <main>
+
+    <div class="formEnviaInfo">
+
+      <form>
+        <label for="nomePokemon">Nome:</label> <br>
+        <input type="text" class="nomePokemon" id="nomePokemon" placeholder="Digite o nome do seu pokemon" name="nomePokemon"><br><br>
+
+        <label for="tipoPokemon">Tipo:</label> <br>
+        <input type="text" class="tipoPokemon" id="tipoPokemon" placeholder="Elétrico | Poção | Venenoso | Agua | Grama | Normal" name="tipoPokemon"><br><br>
+
+        <label for="idPokemon">ID:</label> <br>
+        <input type="text" class="idPokemon" id="nomePokemon" placeholder="Insira seu ID da pokedex" name="idPokemon" maxlength="3"><br><br>
+
+        <label for="">Status:</label> <br>
+        <input type="number" class="hpStatus" id="hpStatus" placeholder="Insira HP" name="hpStatus"> <br>
+        <input type="number" class="ataqueStatus" id="ataqueStatus" placeholder="Insira Ataque" name="ataqueStatus"> <br>
+        <input type="number" class="defesaStatus" id="defesaStatus" placeholder="Insira Defesa" name="defesaStatus"> <br>
+        <input type="number" class="velocidadeStatus" id="velocidadeStatus" placeholder="Insira Velocidade" name="velocidadeStatus"> <br><br>
+
+        <label for="apelido">Habilidade:</label> <br>
+        <input type="text" class="primeiraHabilidade" id="primeiraHabilidade" placeholder="Insira Habilidade 01" name="primeiraHabilidade"> <br>
+        <input type="text" class="segundaHabilidade" id="segundaHabilidade" placeholder="Insira Habilidade 02" name="segundaHabilidade"> <br><br>
+
+
+        <label for="urlImg">Avatar pokemon:</label> <br>
+        <input type="urlImg" class="urlImg" id="urlImg" placeholder="Insira a URL do Pokemon" name="urlImg"><br> <br>
+
+        <button type="submit" id="btnEnviar">Enviar</button>
+        <button type="reset" id="btnReset">Limpar</button>
+
+      </form>
+
+    </div>
+
+    <div class="pokedex">
+    </div>
+
+  </main>
+
+  <script src="src/javascript/main.js"></script>
+</body>
+
+</html>
