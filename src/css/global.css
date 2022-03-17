@@ -17,13 +17,16 @@ ul {
 
 body {
   scroll-behavior: smooth;
-  background-color: #0c0c0c;
+  /* background-color: #0c0c0c; */
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
 
+.fundo {
+  background-color: #0c0c0c;
+}
 
 main {
   min-height: 100vh;
@@ -32,7 +35,7 @@ main {
 
 /* Formulario */
 form {
-  margin: 50px;
+  margin: 1%;
   border-radius: 30px;
   padding: 20px;
 }
@@ -49,7 +52,7 @@ form {
 }
 
 .formEnviaInfo input {
-  width: 70vh;
+  width: 100%;
   border-radius: 5px;
   border: none;
   margin: 5px;
@@ -78,6 +81,11 @@ form {
   /* display: none; */
   box-shadow: hsla(240, 5%, 41%, 0.2) 0px 7px 29px 0px;
   border-radius: 30px;
+}
+
+.container .cartao-pokemon {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /* Nome | Span | Tipo */
@@ -154,4 +162,11 @@ form {
   padding: 0 0 5px;
   margin-bottom: 5px;
   font-size: 15px;
+}
+
+#btnEnviar, #btnReset {
+  color: #0c0c0c;
+  border-color: #0c0c0c;
+  background-color: transparent;
+ background-image: none;
 }

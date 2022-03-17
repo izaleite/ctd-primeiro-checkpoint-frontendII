@@ -35,12 +35,12 @@ function adicionarPokemon(informacoes) {
     const cards = document.createElement('div');
     cards.innerHTML =
       `
-    <div class="cartoes-pokemon">
+    <div class="container cartoes-pokemon">
 
         <!-- Cartão de Retorno do Pokemon -->
-        <div class="cartao-pokemon">
+        <div class="container cartao-pokemon">
 
-          <div class="cartao-topo">
+          <div class="container cartao-topo">
 
             <div class="detalhes">
               <h2 class="nome"> ${infPoke.nomePokemon}</h2>
@@ -49,13 +49,13 @@ function adicionarPokemon(informacoes) {
 
             <span class="tipo">${infPoke.tipoPokemon}</span>
 
-            <div class="cartao-imagem">
+            <div class="container cartao-imagem">
               <img src="${infPoke.urlImg}" alt="Imagem do Pokemon">
             </div>
           </div>
 
-          <div class="cartao-informacoes">
-            <div class="status">
+          <div class="container cartao-informacoes">
+            <div class="container status">
               <h3>Status</h3>
               <ul>
                 <li>HP: ${infPoke.hpStatus}</li>
@@ -64,7 +64,7 @@ function adicionarPokemon(informacoes) {
                 <li>Velocidade:${infPoke.velocidadeStatus} </li>
               </ul>
             </div>
-            <div class="habilidades">
+            <div class="container habilidades">
               <h3>Habilidades</h3>
               <ul>
                 <li>${infPoke.primeiraHabilidade}</li>
