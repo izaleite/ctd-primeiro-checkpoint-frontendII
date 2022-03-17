@@ -16,5 +16,9 @@ b. Após o preenchimento, ao clicar no botão de submit, as informações devem 
 a. Os cards devem ter uma imagem e constar todas as informações previamente preenchidas no formulário. <br>
 b. O comportamento se dará de forma que as informações preenchidas sejam exibidas na seção de cards.
 
+<h3> Integrantes</h3>
+- Izabella de Paula Leite <br>
+- Michel Picozzi 
+
 # Resultado
 ![exemplo projeto](https://user-images.githubusercontent.com/79549424/158665865-26747eac-797c-4749-ac5a-8a0f8c15c603.gif)
