@@ -50,7 +50,7 @@ function adicionarPokemon(informacoes) {
             <span class="tipo">${infPoke.tipoPokemon}</span>
 
             <div class="container cartao-imagem">
-              <img src="${infPoke.urlImg}" alt="Imagem do Pokemon">
+              <img class="urlImgPronta" src="${infPoke.urlImg}" alt="Imagem do Pokemon">
             </div>
           </div>
 
